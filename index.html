@@ -10,43 +10,43 @@
   <body>
     <div class="wrapper">
       <div class="screen">
-        <textarea name="" placeholder="0" autofocus></textarea>
+        <input disabled placeholder="0" id="inp" />
       </div>
       <div class="keys">
         <div class="row">
-          <button class="blue">X<sup>2</sup></button>
-          <button class="blue">&Sqrt;</button>
-          <button class="blue">log</button>
-          <button class="white">&leftarrow;</button>
+          <button class="blue" id="square">X<sup>2</sup></button>
+          <button class="blue" id="square_root">&Sqrt;</button>
+          <button class="blue" id="log">log</button>
+          <button class="white" id="back">&leftarrow;</button>
         </div>
         <div class="row">
-          <button class="yellow">C</button>
+          <button class="yellow" id="clear">C</button>
           <button class="blue">( )</button>
-          <button class="blue">%</button>
-          <button class="blue">&div;</button>
+          <button class="blue" id="per">%</button>
+          <button class="blue" data-action="divide">&div;</button>
         </div>
         <div class="row">
-          <button class="white">7</button>
-          <button class="white">8</button>
-          <button class="white">9</button>
-          <button class="white">&times;</button>
+          <button class="white" id="seven">7</button>
+          <button class="white" id="eight">8</button>
+          <button class="white" id="nine">9</button>
+          <button class="white" data-action="multiply">&times;</button>
         </div>
         <div class="row">
-          <button class="white">4</button>
-          <button class="white">5</button>
-          <button class="white">6</button>
-          <button class="white">&minus;</button>
+          <button class="white" id="four">4</button>
+          <button class="white" id="five">5</button>
+          <button class="white" id="six">6</button>
+          <button class="white" data-action="subtract">&minus;</button>
         </div>
         <div class="row">
-          <button class="white">1</button>
-          <button class="white">2</button>
-          <button class="white">3</button>
-          <button class="white">&plus;</button>
+          <button class="white" id="one">1</button>
+          <button class="white" id="two">2</button>
+          <button class="white" id="three">3</button>
+          <button class="white" data-action="add">&plus;</button>
         </div>
         <div class="row">
-          <button class="white">&plusmn;</button>
-          <button class="white">0</button>
-          <button class="white">.</button>
+          <button class="white" id="zeros">00</button>
+          <button class="white" id="zero">0</button>
+          <button class="white" id="dot">.</button>
           <button class="equal">&equals;</button>
         </div>
       </div>
